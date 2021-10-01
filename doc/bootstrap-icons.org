@@ -1,0 +1,38 @@
+** Get the repo from github
+Clone the project
+#+begin_example
+https://github.com/juan-reynoso/bootstrap-icons.git
+#+end_example
+
+*** Load the project by quicklisp
+Put all together
+
+#+begin_example
+;; load the project
+(ql:quickload "bootstrap-icons")
+
+;; Use the package
+(in-package :bootstrap-icons)
+
+;; start the server
+(start-web-server)
+#+end_example
+
+#+begin_example
+CL-USER> (ql:quickload "bootstrap-icons")
+To load "bootstrap-icons":
+  Load 1 ASDF system:
+    bootstrap-icons
+; Loading "bootstrap-icons"
+...........
+("bootstrap-icons")
+CL-USER> (in-package :bootstrap-icons)
+#<PACKAGE "BOOTSTRAP-ICONS">
+BOOTSTRAP-ICONS> (start-web-server)
+#<EASY-ACCEPTOR (host *, port 8090)>
+BOOTSTRAP-ICONS> 
+#+end_example
+
+ Open you browser and see the result:
+
+ http://localhost:8090/index.html
