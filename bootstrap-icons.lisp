@@ -30,10 +30,10 @@
 		      :content "width=device-width, initial-scale=1")
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
-		      :href "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css")
+		      :href "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css")
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
-		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css")
+		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css")
 	      (<:title (<:as-html ,title)))
 	     (<:body
 	      ,@body))))
@@ -48,7 +48,7 @@
 				:src "/img/banner.png"))
 		  (<:div :class "col-12 pt-4"
 			 (<:h1 :class "text-muted"
-			  "Hunchentoot and Bootstrap icons"))
+			  "Hunchentoot and Bootstrap Icons v1.6.0"))
 		  (<:div :class "col-11 pb-3"
 			 (<:h3 :class "text-success"
 			       "Icon font")
