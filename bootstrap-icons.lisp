@@ -33,7 +33,7 @@
 		      :href "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css")
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
-		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css")
+		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css")
 	      (<:title (<:as-html ,title)))
 	     (<:body
 	      ,@body))))
@@ -48,13 +48,13 @@
 				:src "/img/banner.png"))
 		  (<:div :class "col-12 pt-4"
 			 (<:h1 :class "text-muted"
-			  "Hunchentoot and Bootstrap Icons v1.6.0"))
+			  "Hunchentoot and Bootstrap Icons v1.7.0"))
 		  (<:div :class "col-11 pb-3"
 			 (<:h3 :class "text-success"
 			       "Icon font")
 			 (<:h5 :class "text-dark"
 			       "Icon fonts with classes for every icon are also included for Bootstrap Icons. Include the icon web fonts in your page via CSS, then reference the class names as needed in your HTML.")
-			 (<:code "For example: <span class='bi-alarm'></span>")
+			 (<:code "For example: <span class='bi bi-alarm'></span>")
 			 (<:div :class "pt-1"
 				(<:span :class "bi bi-alarm h1 text-primary")))
 		  
