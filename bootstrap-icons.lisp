@@ -33,7 +33,7 @@
 		      :href "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css")
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
-		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css")
+		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css")
 	      (<:title (<:as-html ,title)))
 	     (<:body
 	      ,@body))))
@@ -48,7 +48,9 @@
 				:src "/img/banner.png"))
 		  (<:div :class "col-12 pt-4"
 			 (<:h1 :class "text-muted"
-			  "Hunchentoot and Bootstrap Icons v1.7.0"))
+			       "Hunchentoot and "
+			       (<:a :href "https://icons.getbootstrap.com/"
+				    "Bootstrap Icons v1.8.1")))
 		  (<:div :class "col-11 pb-3"
 			 (<:h3 :class "text-success"
 			       "Icon font")
@@ -57,8 +59,7 @@
 			 (<:code "For example: <span class='bi bi-alarm'></span>")
 			 (<:div :class "pt-1"
 				(<:span :class "bi bi-alarm h1 text-primary")))
-		  
-		  (<:div :class "col-12 col-md-6"
+		  (<:div :class "col-12 col-md-6 pb-5"
 			 (<:div :class "list-group shadow"
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
 				     (<:span :class "bi bi-files h3 text-primary")
@@ -99,8 +100,7 @@
 					     (<:h6 :class "mb-0"
 						   "Games")
 					     (<:p :class "mb-0"
-						  "Some placeholder content in a paragraph that goes a little longer so it wraps to a new line."))))))
-		  ))))
+						  "Some placeholder content in a paragraph that goes a little longer so it wraps to a new line."))))))))))
 
 (setq *dispatch-table*
       (list
