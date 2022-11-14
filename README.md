@@ -33,3 +33,4 @@ BOOTSTRAP-ICONS> (start-web-server)
 
   http://localhost:8090/index.html
 
+![alt text](https://github.com/juan-reynoso/bootstrap-icons/blob/main/wwwroot/img/example.png)
