@@ -33,7 +33,7 @@
 		      :href "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css")
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
-		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css")
+		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css")
 	      (<:title (<:as-html ,title)))
 	     (<:body
 	      ,@body))))
@@ -50,7 +50,7 @@
 			 (<:h1 :class "text-muted"
 			       "Hunchentoot and "
 			       (<:a :href "https://icons.getbootstrap.com/"
-				    "Bootstrap Icons v1.8.2")))
+				    "Bootstrap Icons v1.10.0")))
 		  (<:div :class "col-11 pb-3"
 			 (<:h3 :class "text-success"
 			       "Icon font")
